@@ -1,0 +1,12 @@
+$prefix-cls: 'personal-page';
+
+.#{$prefix-cls} {
+  .ant-menu-item {
+    padding-left: 40px !important;
+  }
+
+  &-content {
+    height: 540px;
+    overflow: auto;
+  }
+}

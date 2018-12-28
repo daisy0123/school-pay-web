@@ -1,0 +1,34 @@
+$prefix-cls: 'buy-order';
+
+.#{$prefix-cls} {
+  margin-top: 50px;
+
+  &-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed #e9e9e9;
+    border-radius: 6px;
+    background-color: #fafafa;
+    min-height: 400px;
+  }
+
+  &-current1 {
+    padding-top: 130px;
+    text-align: center;
+    p {
+      margin-top: 20px;
+      font-size: 17px;
+    }
+
+    .anticon-close-circle {
+      font-size: 50px;
+      color: #ff0000;
+    }
+  }
+
+  &-ok {
+    font-size: 50px;
+    color: #108ee9;
+  }
+
+}

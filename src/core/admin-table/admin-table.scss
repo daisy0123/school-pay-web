@@ -1,0 +1,14 @@
+$prefix-cls: 'admin-table';
+
+.#{$prefix-cls} {
+  &-search {
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 20px;
+    border: 1px solid #dedede;
+
+    .search-input {
+      width: 300px;
+    }
+  }
+}

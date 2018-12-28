@@ -1,0 +1,19 @@
+$prefix-cls: 'goods-list';
+
+.#{$prefix-cls} {
+  &-header {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #108ee9;
+    margin-bottom: 10px;
+
+    a {
+      font-size: 17px;
+    }
+
+    .see-more {
+      font-size: 12px;
+      float: right;
+    }
+  }
+}

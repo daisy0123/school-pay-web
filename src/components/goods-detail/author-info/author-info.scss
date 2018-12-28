@@ -1,0 +1,28 @@
+$prefix-cls: 'author-info';
+
+.#{$prefix-cls} {
+  &-intro {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 25px 10px;
+    border-bottom: 2px solid #dedede;
+
+    .author-mess {
+      padding-left: 20px;
+    }
+  }
+
+  &-comment {
+    width: 100%;
+  }
+
+  &-avatar {
+    width: 100px !important;
+    height: 100px !important;
+
+    img{
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+}

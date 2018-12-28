@@ -1,0 +1,18 @@
+$prefix-cls: 'person-safe';
+
+.#{$prefix-cls} {
+  padding-top: 120px;
+  &-form {
+    .submit {
+      margin-left: 250px;
+    }
+
+    p {
+      line-height: 24px;
+      color: #ff0000;
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+}
+

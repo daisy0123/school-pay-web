@@ -1,0 +1,25 @@
+$prefix-cls: 'goods-detail';
+$text-color: #0088cc;
+
+.#{$prefix-cls} {
+  padding: 30px 0;
+
+  &-con {
+    background: #ffffff;
+    padding: 20px;
+
+    .author-goods {
+      margin-bottom: 30px;
+    }
+  }
+
+  &-detail-section {
+    padding: 10px;
+    margin-top: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+

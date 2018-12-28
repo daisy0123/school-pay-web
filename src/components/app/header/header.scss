@@ -1,0 +1,31 @@
+$prefix-cls: 'school-pay-header';
+
+.#{$prefix-cls} {
+  z-index: 10;
+  &-menu {
+    display: inline-block;
+  }
+
+  .logo {
+    img {
+      margin-top: -55px;
+      margin-right: 30px;
+    }
+  }
+
+  .login-mess {
+    display: inline-block;
+    float: right;
+    span {
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 16px;
+      margin-left: 20px;
+    }
+  }
+
+  .login,
+  .register {
+    display: inline-block;
+  }
+}

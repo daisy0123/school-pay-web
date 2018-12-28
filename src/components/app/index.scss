@@ -1,0 +1,17 @@
+$prefix-cls: 'school-pay-page';
+
+.#{$prefix-cls} {
+
+  &.ant-layout {
+    flex-direction: row;
+
+    min-width: 1300px;
+    overflow: auto;
+  }
+
+  &-content {
+    background: #ffffff;
+    margin-top: 64px;
+  }
+}
+

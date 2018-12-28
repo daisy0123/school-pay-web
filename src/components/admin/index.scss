@@ -1,0 +1,9 @@
+$prefix-cls: 'admin';
+
+.#{$prefix-cls} {
+  &-content {
+    padding: 10px 20px !important;
+    height: 520px;
+    overflow: auto;
+  }
+}

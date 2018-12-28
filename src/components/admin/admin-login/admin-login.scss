@@ -1,0 +1,24 @@
+$prefix-cls: 'admin-login';
+
+.#{$prefix-cls} {
+  width: 350px;
+  height: 300px;
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 1px solid #dedede;
+
+  &-header {
+    height: 50px;
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .login-form-button{
+    width: 100%;
+  }
+}

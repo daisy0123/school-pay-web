@@ -1,0 +1,67 @@
+$prefix-cls: 'goods-info';
+$text-color: #0088cc;
+
+.border {
+  border: 1px solid #dedede;
+}
+
+.#{$prefix-cls} {
+
+  &-cover {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    @extend .border;
+
+    img {
+      max-width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  &-info {
+    margin: 10px;
+
+    h2 {
+      color: $text-color;
+      margin-bottom: 10px;
+    }
+
+    .tips {
+      margin-left: 20px;
+      color: #ff0000;
+    }
+
+    .goods-info-wrapper {
+      @extend .border;
+      width: 100%;
+      padding: 5px 10px;
+      margin-bottom: 20px;
+
+      .goods-price {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .goods-intro {
+        color: #999999;
+        font-size: 12px;
+        text-indent: 5px;
+      }
+
+      .author-info {
+        margin-top: 10px;
+        height: 40px;
+        line-height: 40px;
+
+        .author-avatar {
+          margin-right: 5px;
+        }
+
+        .discuss-time {
+          float: right;
+        }
+      }
+    }
+  }
+}

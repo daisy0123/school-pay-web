@@ -1,0 +1,22 @@
+$prefix-cls: 'login';
+
+.#{$prefix-cls} {
+  &-modal {
+    .ant-modal-header {
+      text-align: center;
+    }
+
+    .login-input {
+      margin-bottom: 25px;
+    }
+
+    .login-submit {
+      width: 100%;
+    }
+
+    .to-register {
+      margin-top: 5px;
+      text-align: right;
+    }
+  }
+}

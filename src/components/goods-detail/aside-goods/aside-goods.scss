@@ -1,0 +1,45 @@
+$prefix-cls: 'aside-goods';
+$text-color: #0088cc;
+
+.#{$prefix-cls} {
+
+  &-header {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #108ee9;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #108ee9;
+  }
+
+  &-content {
+    width: 100%;
+    overflow: hidden;
+    .ant-card-body {
+      padding: 10px;
+    }
+    .other-pic {
+      width: 38%;
+      height: 100px;
+      margin-right: 2%;
+      float: left;
+    }
+    .other-text {
+      width: 60%;
+      float: right;
+
+      h3 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      p {
+        color: #666666;
+      }
+      .other-price {
+        font-weight: bold;
+        font-size: 16px;
+      }
+    }
+  }
+}

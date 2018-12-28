@@ -1,0 +1,12 @@
+$prefix-cls: 'tab-content';
+
+.#{$prefix-cls} {
+
+  &-content {
+    min-height: 400px;
+  }
+
+  &-page {
+    text-align: center;
+  }
+}

@@ -1,0 +1,46 @@
+$prefix-cls: 'sp-comment';
+
+.#{$prefix-cls} {
+  padding: 30px;
+
+  h2 {
+    color: #108ee9;
+    text-indent: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #108ee9;
+  }
+
+  &-intro {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-bottom: 2px solid #dedede;
+
+    .author-mess {
+      padding-left: 20px;
+    }
+  }
+
+  &-avatar {
+    width: 100px !important;
+    height: 100px !important;
+
+    img{
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  &-edit {
+    padding-top: 20px;
+
+    .rate {
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    .submit {
+      margin-top: 20px;
+      float: right;
+    }
+  }
+}

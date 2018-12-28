@@ -1,0 +1,19 @@
+$prefix-cls: 'index-shop';
+
+.#{$prefix-cls} {
+
+  &-shop-con {
+    width:100%;
+    overflow: hidden;
+  }
+
+  &-item {
+    margin-right: 15px !important;
+    width: 250px;
+    float: left;
+	
+	&:last-of-type {
+	  margin-right: 0 !important;
+	}
+  }
+}

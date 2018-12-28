@@ -1,0 +1,73 @@
+$prefix-cls: 'sale-order';
+
+.#{$prefix-cls} {
+  margin-top: 50px;
+
+  &-con {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed #e9e9e9;
+    border-radius: 6px;
+    background-color: #fafafa;
+    min-height: 400px;
+  }
+
+  &-current0 {
+    padding: 20px;
+    overflow: hidden;
+    img {
+      height: 110px;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .goods-intro {
+      padding-bottom: 20px;
+      line-height: 20px;
+      min-height: 130px;
+      border-bottom: 1px solid #dedede;
+      overflow: hidden;
+      h3 {
+        color: #108ee9;
+        font-weight: bold;
+      }
+    }
+
+    .order-submit {
+      float: right;
+      margin-left: 20px;
+    }
+  }
+
+  &-detail {
+    padding: 20px;
+    line-height: 30px;
+  }
+
+  &-fail {
+    padding-top: 130px;
+    text-align: center;
+    p {
+      margin-top: 20px;
+      font-size: 17px;
+    }
+    .anticon-close-circle {
+      font-size: 50px;
+      color: #ff0000;
+    }
+  }
+
+  &-current1 {
+    padding-top: 130px;
+    text-align: center;
+    p {
+      margin-top: 20px;
+      font-size: 17px;
+    }
+  }
+
+  &-ok {
+    font-size: 50px;
+    color: #108ee9;
+  }
+}

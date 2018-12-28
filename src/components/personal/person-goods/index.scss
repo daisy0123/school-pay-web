@@ -1,0 +1,36 @@
+$prefix-cls: 'person-goods';
+
+.#{$prefix-cls} {
+  padding: 20px;
+
+  &-selection {
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    .ant-checkbox-group {
+      display: inline-block;
+    }
+
+    .sale-search {
+      float: right;
+      margin-top: -5px;
+    }
+  }
+
+  &-count{
+    text-align: right;
+  }
+
+  &-item {
+    margin-bottom: 10px;
+  }
+
+  &-page {
+    text-align: center;
+  }
+
+  &-content {
+    min-height: 400px;
+  }
+}
