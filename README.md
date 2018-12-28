@@ -6,7 +6,7 @@
 
 - 第一步 拉代码
 ```
-git clone https://gitlab.com/school-pay/school-pay.git
+git clone https://github.com/qiuyuxiu/school-pay-web.git
 ```
 - 第二步 安装依赖
 ```
